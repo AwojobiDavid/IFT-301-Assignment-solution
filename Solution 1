@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plot
+
+items = ['Spinach', 'Sausage', 'Prawns', 'Pineapple', 'Mushroom']
+proportions = [0.27, 0.20, 0.12, 0.27, 0.15]
+plot.barh(items, proportions, color='purple')
+plot.xlabel('Proportion of Total')
+plot.ylabel('Items')
+plot.title('Proportions of Items')
+plot.show()
